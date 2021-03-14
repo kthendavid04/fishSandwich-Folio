@@ -9,7 +9,6 @@
     --tertiary: #0db9d0;
     --dark: #d39193;
     --light: #fecfb3;
-    --gold: #ffd700;
   }
   
   body {
@@ -54,8 +53,6 @@
     margin: 0;
     font-size: 4vw;
     line-height: 1;
-    font-family: cursive, "Snell Roundhand";
-    text-align:right;
   }
   
   nav {
@@ -114,7 +111,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
-    font-family: cursive, "Lucidia Handwriting";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .hero-banner div {
@@ -234,7 +231,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     font-style: normal;
-    background-image: linear-gradient(270deg, var(--light) 0%, var(--light) 10%);
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
