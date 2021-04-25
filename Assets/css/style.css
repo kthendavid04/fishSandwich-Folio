@@ -54,12 +54,10 @@
     font-size: 4vw;
     line-height: 1;
   }
-  
-  nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: right;
+  /*  
+ .nav-wrapper {
+
+     
   }
   
   nav a {
@@ -82,9 +80,13 @@
   }
   
   nav a:last-child {
-    margin-right: 50px;
-  }
+    margin-right: 50px; 
+  }*/
   
+  .large material-icons {
+    font-size: 300px;
+  }
+
   main {
     margin-top: 20px;
     margin-bottom: 45px;

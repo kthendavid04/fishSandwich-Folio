@@ -6,14 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Seeburger Portfolio</title>
-  <link rel="Stylesheet" href="Assets/css/style.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./Assets/node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+
+  <link rel="Stylesheet" href="./Assets/css/style.css">
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
+      <!-- Navigation bar for full screen -->
+      <!-- <div class="containter"> -->
+        <nav class="nav-extended">
+          <div class="nav-wrapper cyan lighten-2">
+              <a href="#" class="brand-logo">Katherine Seeburger Development</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="tel:+16144045481"><i class="material-icons">phone</i></a></li>
+                <li><a href="mailto:kthendavid04@gmail.com"><i class="material-icons">mail</i></a></li>
+                <li><a href="https://github.com/kthendavid04"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/kthenfishsandwich/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+              <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                  <i class="material-icons">contacts</i>
+              </a>
+
+              </ul>
+    
+      <!-- Navigation bar for mobile devices -->
+        <ul class="sidenav" id="mobile-links">
+          <li><a href="tel:+16144045481"><i class="material-icons">phone</i>Call or Text</a></li>
+          <li><a href="mailto:kthendavid04@gmail.com"><i class="material-icons">mail</i>Email</a></li>
+          <li><a href="https://github.com/kthendavid04"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/kthenfishsandwich/"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+        </ul>
+        </nav>
+      </div>
+  <!-- <header>
     <h1>Katherine Seeburger Development</h1>
-  </header>
+  </header> -->
   <!-- hero banner -->
 
   <section class="hero-banner">
@@ -116,6 +146,19 @@
       </div>
     </section>
   </main>
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="Assets/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script src="https://kit.fontawesome.com/0bddabc40e.js" crossorigin="anonymous"></script>
+  <script src ="./Assets/JS/index.js"></script>
+  <script src="./Assets/JS/script.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+  </script>
 </body>
 
 </html>
