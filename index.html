@@ -8,31 +8,34 @@
   <title>Seeburger Portfolio</title>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=Stalemate&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="./Assets/node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
-
   <link rel="Stylesheet" href="./Assets/css/style.css">
 </head>
 
 <body>
       <!-- Navigation bar for full screen -->
-      <!-- <div class="containter"> -->
+      <div class="containter">
         <nav class="nav-extended">
           <div class="nav-wrapper cyan lighten-2">
-              <a href="#" class="brand-logo">Katherine Seeburger Development</a>
+              <a class="center brand-logo">KS Development</a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="tel:+16144045481"><i class="material-icons">phone</i></a></li>
                 <li><a href="mailto:kthendavid04@gmail.com"><i class="material-icons">mail</i></a></li>
                 <li><a href="https://github.com/kthendavid04"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/kthenfishsandwich/"><i class="fab fa-linkedin"></i></a></li>
               </ul>
+              
               <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                  <i class="material-icons">contacts</i>
+                  <i class="material-icons">view_headline
+                  </i>
               </a>
-
               </ul>
     
       <!-- Navigation bar for mobile devices -->
+        
         <ul class="sidenav" id="mobile-links">
           <li><a href="tel:+16144045481"><i class="material-icons">phone</i>Call or Text</a></li>
           <li><a href="mailto:kthendavid04@gmail.com"><i class="material-icons">mail</i>Email</a></li>
@@ -41,39 +44,63 @@
         </ul>
         </nav>
       </div>
-  <!-- <header>
-    <h1>Katherine Seeburger Development</h1>
-  </header> -->
-  <!-- hero banner -->
 
-  <section class="hero-banner">
+  <!-- hero banner -->
+<!-- section for quote -->
+  <div class="section cyan lighten-2 text">
+    <div class="row">
+      <div class="col s4 push-s4">
+        <div class="center card-panel cyan-text text-darken-2">
+          <span class="card-title">Every day is a chance to be better.</span>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <!-- <section class="hero-banner">
     <h2>
       Every day is a chance to be better.
     </h2>
-  </section>
-  <div>
+  </section> -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">ks</a>
+      <div class="row">
+        <ul class="col s8 push-s5">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+              <!-- Link this to your resume! -->
+          <li><a href="#">Resume</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div>
     <nav>
       <a href="#about">About Me</a>
       <a href="#work">Work</a>
       <a href="#contact">Contact Me</a>
-      <!-- Link this to your resume! -->
+      Link this to your resume!
       <a href="#">Resume</a>
     </nav>
-  </div>
+  </div> --> 
 
   <main class="page-wrapper">
     <!-- about me -->
 
 
     <!-- portfolio container -->
+    <!-- <div class="hiddendiv"> -->
     <section class="page-section" id="work">
       <h2>Work</h2>
       <div class="flex-container">
 
-        <a href="https://kthendavid04.github.io/CodingQuiz-API/index.html" class="flex-item seo">
+        <a href="https://the64man1.github.io/Gooberville-Foods/" class="flex-item seo">
           <div>
-            <h3>Coding Quiz Game</h3>
-            <span>JavaScript</span>
+            <h3>API Project</h3>
+            <span>Group Project</span>
           </div>
         </a>
 
@@ -83,7 +110,7 @@
             <span>JavaScript</span>
           </div>
         </a>
-        <a href="#" class="flex-item planner">
+        <a href="https://kthendavid04.github.io/BC-Daily-Scheduler/" class="flex-item planner">
           <div>
             <h3>Day Planner</h3>
             <span>*Coming Soon*</span>
@@ -106,9 +133,12 @@
 
       </div>
     </section>
+  </div>
+  <!-- <div class="hiddendiv"> -->
     <section class="page-section" id="about">
 
       <h2>Bio
+        <br>
         <img src="Assets/images/me.jpg" alt="picture of myself making a silly face" style="width:210px">
 
       </h2>
@@ -132,7 +162,10 @@
 
       </div>
     </section>
+  </div>
     <!-- contact -->
+  <!-- <div class="hiddendiv"> -->
+    <footer>
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
       <div>
@@ -145,6 +178,8 @@
         </address>
       </div>
     </section>
+  </div>
+  </footer>
   </main>
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
