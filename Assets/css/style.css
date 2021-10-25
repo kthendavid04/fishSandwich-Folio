@@ -9,6 +9,7 @@
     --tertiary: #0db9d0;
     --dark: #d39193;
     --light: #fecfb3;
+    --navy:#323954;
   }
   
   body {
@@ -39,7 +40,7 @@ a.center.brand-logo {
   
   p {
     margin: 0;
-    color: var(--dark);
+    color: var(--navy);
     font-size: 20px;
   
   }
